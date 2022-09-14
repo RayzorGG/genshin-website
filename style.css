@@ -13,7 +13,9 @@ body {
     font-family: Mouse Memoirs, serif;
     text-decoration:underline;
     font-size: 50px;
-    color: #2e2929;
+    color: #000000;
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #ffffff;
 }
 
 .character-screen {
@@ -40,11 +42,33 @@ body {
     width: 200px;
 }
 
+.weapon-image {
+    width: 150px;
+}
+.weapon-name {
+    font-family: Mouse Memoirs, serif;
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #000000;
+    text-decoration:none;
+    font-weight: bold;
+    display:inline-block;
+    text-align: center;
+}
+
+.weapon-description {
+    font-size: 50px;
+    text-align: right;
+}
+
 .charName {
     font-family: Mouse Memoirs, serif;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
+    font-size: 50px;
+    color: rgb(233, 228, 221);
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #000000;
+    text-decoration:none;
     font-weight: bold;
     display: inline-block;
     text-align: center;
@@ -81,7 +105,10 @@ body {
 
 .character-build {
     font-family: Mouse Memoirs, serif;
-    font-size: 40px;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #000000;
 }
 
 .build-image {
@@ -90,9 +117,20 @@ body {
     object-position: bottom;
 }
 
+.apartados-build {
+    text-decoration: none;
+    font-family: Mouse Memoirs, serif;
+    font-size: 35px;
+    color: black;
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #ffffff;
+}
+
 .return-index {
     text-decoration: none;
     font-family: Mouse Memoirs, serif;
-    font-size: 25px;
+    font-size: 35px;
     color: black;
+    -webkit-text-stroke-width: 0.000000000000000001em;
+    -webkit-text-stroke-color: #ffffff;
 }
